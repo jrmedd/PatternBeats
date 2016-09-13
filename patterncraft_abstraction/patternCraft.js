@@ -8,7 +8,7 @@ function toIntList(input) {
   	converted[i] = parseInt(converted[i], 16); //convert hex values to integers
   }
   outlet(0, converted); //output array
-	toBitList(converted) //send array to be turnedw into base-2 lists
+	toBitList(converted); //send array to be turnedw into base-2 lists
 }
 
 function toBitList(input) {

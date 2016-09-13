@@ -1087,7 +1087,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p 16-bit"
+					"text" : "p 8-bit"
 				}
 
 			}
