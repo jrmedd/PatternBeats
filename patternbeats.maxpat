@@ -410,7 +410,7 @@
 					"fontname" : "Fira Mono",
 					"fontsize" : 12.0,
 					"id" : "obj-33",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem1421" ],
+					"items" : "Bluetooth-Incoming-Port",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -545,8 +545,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 50.0, 250.0, 107.0, 20.0 ],
-									"text" : "buffer~ sh sh.mp3"
+									"patching_rect" : [ 50.0, 250.0, 105.0, 20.0 ],
+									"text" : "buffer~ sh sh.wav"
 								}
 
 							}
@@ -559,8 +559,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 50.0, 190.0, 108.0, 20.0 ],
-									"text" : "buffer~ oh oh.mp3"
+									"patching_rect" : [ 50.0, 190.0, 106.0, 20.0 ],
+									"text" : "buffer~ oh oh.wav"
 								}
 
 							}
@@ -573,8 +573,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 50.0, 310.0, 107.0, 20.0 ],
-									"text" : "buffer~ hc hc.mp3"
+									"patching_rect" : [ 50.0, 310.0, 105.0, 20.0 ],
+									"text" : "buffer~ hc hc.wav"
 								}
 
 							}
@@ -587,8 +587,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 50.0, 280.0, 107.0, 20.0 ],
-									"text" : "buffer~ cb cb.mp3"
+									"patching_rect" : [ 50.0, 280.0, 105.0, 20.0 ],
+									"text" : "buffer~ cb cb.wav"
 								}
 
 							}
@@ -601,8 +601,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 50.0, 220.0, 101.0, 20.0 ],
-									"text" : "buffer~ cr cr.mp3"
+									"patching_rect" : [ 50.0, 220.0, 99.0, 20.0 ],
+									"text" : "buffer~ cr cr.wav"
 								}
 
 							}
@@ -615,8 +615,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 50.0, 160.0, 107.0, 20.0 ],
-									"text" : "buffer~ ch ch.mp3"
+									"patching_rect" : [ 50.0, 160.0, 105.0, 20.0 ],
+									"text" : "buffer~ ch ch.wav"
 								}
 
 							}
@@ -629,8 +629,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 50.0, 130.0, 107.0, 20.0 ],
-									"text" : "buffer~ sn sn.mp3"
+									"patching_rect" : [ 50.0, 130.0, 105.0, 20.0 ],
+									"text" : "buffer~ sn sn.wav"
 								}
 
 							}
@@ -643,8 +643,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 50.0, 100.0, 108.0, 20.0 ],
-									"text" : "buffer~ bd bd.mp3"
+									"patching_rect" : [ 50.0, 100.0, 106.0, 20.0 ],
+									"text" : "buffer~ bd bd.wav"
 								}
 
 							}
