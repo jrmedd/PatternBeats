@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1.0, 45.0, 640.0, 519.0 ],
+		"rect" : [ 100.0, 100.0, 640.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -119,7 +119,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ -1.0, 71.0, 640.0, 493.0 ],
+						"rect" : [ 100.0, 126.0, 640.0, 493.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -451,7 +451,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-33",
-									"items" : "Bluetooth-Incoming-Port",
+									"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem1411" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1319,7 +1319,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.003922, 0.003922, 0.003922, 1.0 ],
+									"bgcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 									"id" : "obj-60",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -1466,7 +1466,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.007843, 0.007843, 0.007843, 1.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-58",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -1613,7 +1613,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.015686, 0.015686, 0.015686, 1.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-56",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -1760,7 +1760,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.031373, 0.031373, 0.031373, 1.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-54",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -1907,7 +1907,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.062745, 0.062745, 0.062745, 1.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-52",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -2054,7 +2054,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.12549, 0.12549, 0.12549, 1.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-50",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -2201,13 +2201,12 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.25098, 0.25098, 0.25098, 1.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-48",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 280.0, 50.0, 50.0 ],
-									"presentation_rect" : [ 56.0, 225.0, 0.0, 0.0 ]
+									"patching_rect" : [ 60.0, 280.0, 50.0, 50.0 ]
 								}
 
 							}
@@ -2349,7 +2348,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "panel",
 									"numinlets" : 1,

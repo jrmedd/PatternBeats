@@ -601,7 +601,7 @@
 					"fontname" : "Fira Mono",
 					"fontsize" : 12.0,
 					"id" : "obj-33",
-					"items" : "Bluetooth-Incoming-Port",
+					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem1411" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -686,8 +686,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 30.0, 240.0, 137.0, 20.0 ],
-					"text" : "patterncraft @lsb 1"
+					"patching_rect" : [ 30.0, 240.0, 127.0, 20.0 ],
+					"text" : "patterncraft"
 				}
 
 			}
@@ -2751,10 +2751,10 @@
 					"fontsize" : 12.0,
 					"id" : "obj-82",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 603.75, 825.0, 57.0, 20.0 ],
-					"text" : "dac~ 1 2"
+					"patching_rect" : [ 603.75, 870.0, 77.0, 20.0 ],
+					"text" : "dac~ 1 2 3 4"
 				}
 
 			}
@@ -4131,6 +4131,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-87", 0 ]
 				}
 
 			}

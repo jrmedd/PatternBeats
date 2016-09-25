@@ -36,8 +36,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 270.0, 78.0, 18.0 ],
-					"text" : "lsbSwitch $1"
+					"patching_rect" : [ 136.0, 270.0, 85.0, 18.0 ],
+					"text" : "msbSwitch $1"
 				}
 
 			}
@@ -50,8 +50,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 270.0, 195.0, 57.0, 20.0 ],
-					"text" : "route lsb"
+					"patching_rect" : [ 270.0, 195.0, 65.0, 20.0 ],
+					"text" : "route msb"
 				}
 
 			}
@@ -476,8 +476,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 270.0, 100.0, 20.0 ],
-					"text" : "prepend toIntList"
+					"patching_rect" : [ 0.0, 270.0, 126.0, 20.0 ],
+					"text" : "prepend processCard"
 				}
 
 			}
@@ -884,7 +884,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "patternCraft.js",
-				"bootpath" : "/Users/jrmedd/Dropbox/PatternBeats",
+				"bootpath" : "/Users/jrmedd/Dropbox/PatternBeats/patterncraft_abstraction",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
