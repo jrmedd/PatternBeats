@@ -610,7 +610,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"title" : "About PatternBeats",
+						"title" : "About PatternMIDI",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -760,7 +760,7 @@
 					"fontname" : "Fira Mono",
 					"fontsize" : 12.0,
 					"id" : "obj-33",
-					"items" : [ "Bluetooth-Incoming-Port", ",", "usbmodem1411" ],
+					"items" : "Bluetooth-Incoming-Port",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
